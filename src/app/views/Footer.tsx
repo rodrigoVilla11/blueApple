@@ -13,7 +13,7 @@ const Footer = () => {
           height={250}
         />
         </div>
-        <div className='flex justify-center items-center border-r-2 border-white'>
+        <div className='flex justify-center items-center border-l-1 border-white gap-4 text-5xl pl-4'>
             <FaSquareXTwitter />
             <FaSquareFacebook />
             <FaLinkedin />
