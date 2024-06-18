@@ -24,7 +24,7 @@ const AboutUs = () => {
             sociales.
           </p>
           <p className="w-2/3">
-            Cosas como "Meta Ads" o "Usar Instagram para darse a conocer” nos
+            Cosas como &quot;Meta Ads&quot; o &quot;Usar Instagram para darse a conocer&quot; nos
             parecieron una pesadilla al principio.Es exactamente por eso que
             decidimos convertirnos en profesionales en esto.
           </p>

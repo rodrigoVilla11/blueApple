@@ -7,6 +7,7 @@ import Process from "./views/Process";
 import Philosophy from "./views/Philosophy";
 import FreeBook from "./views/FreeBook";
 import Quotes from "./views/Quotes";
+import Footer from "./views/Footer";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
       <Philosophy />
       <FreeBook />
       <Quotes />
+      <Footer />
     </main>
   );
 }
