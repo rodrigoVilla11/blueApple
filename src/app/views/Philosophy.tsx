@@ -2,11 +2,11 @@ import React from "react";
 
 const Philosophy = () => {
   return (
-    <div className="w-full h-96 bg-white flex flex-col justify-center items-center gap-4 p-10" id="philosophy">
+    <div className="w-full sm:h-96 bg-white flex flex-col justify-center items-center gap-4 p-10" id="philosophy">
       <h3 className="font-bold text-4xl text-blue-darkBlueApple pb-10">
         Nuestra Filosofia
       </h3>
-      <div className="flex justify-center items-center gap-4">
+      <div className="flex flex-col sm:flex-row justify-center items-center gap-4">
       <div className="flex flex-col justify-center items-center text-center gap-4">
         <h5 className="text-2xl text-blue-blueApple">Deliverada y analitica</h5>
         <p className="text-black text-md">

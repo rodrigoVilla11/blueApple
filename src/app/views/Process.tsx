@@ -2,8 +2,8 @@ import React from "react";
 
 const Process = () => {
   return (
-    <div className="w-full h-auto bg-gradient-blueApple flex justify-center items-center gap-4 p-24 text-blue-blueApple" id="services">
-      <div className="bg-white rounded-xl w-2/5 h-96 flex flex-col justify-start items-center text-center gap-4 p-10">
+    <div className="w-full h-auto bg-gradient-blueApple flex flex-col sm:flex-row justify-center items-center gap-4 p-4 sm:p-24 text-blue-blueApple" id="services">
+      <div className="bg-white rounded-xl sm:w-2/5 sm:h-96  flex flex-col justify-start items-center text-center gap-4 p-4 sm:p-10">
         <div className="bg-gradient-blueApple h-16 w-16 rounded-xl text-white text-6xl font-bold flex justify-center items-center">
           1
         </div>
@@ -17,7 +17,7 @@ const Process = () => {
           presupuesto
         </p>
       </div>
-      <div className="bg-white rounded-xl w-2/5 h-96 flex flex-col justify-start items-center text-center gap-4 p-10">
+      <div className="bg-white rounded-xl sm:w-2/5 sm:h-96 flex flex-col justify-start items-center text-center gap-4 p-4 sm:p-10">
         <div className="bg-gradient-blueApple h-16 w-16 rounded-xl text-white text-6xl font-bold flex justify-center items-center">
           2
         </div>
@@ -33,7 +33,7 @@ const Process = () => {
           Todo lo que no haya funcionado se descarta de forma inmediata
         </p>
       </div>
-      <div className="bg-white rounded-xl w-2/5 h-96 flex flex-col justify-start items-center text-center gap-4 p-10">
+      <div className="bg-white rounded-xl sm:w-2/5 sm:h-96 flex flex-col justify-start items-center text-center gap-4 p-4 sm:p-10">
         <div className="bg-gradient-blueApple h-16 w-16 rounded-xl text-white text-6xl font-bold flex justify-center items-center">
           3
         </div>

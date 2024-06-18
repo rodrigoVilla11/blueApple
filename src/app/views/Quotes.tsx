@@ -35,7 +35,7 @@ const Quotes = () => {
   const person = people[state];
 
   return (
-    <div className="w-full h-screen bg-white px-44 py-24">
+    <div className="w-full hidden sm:flex h-screen bg-white px-44 py-24">
       <div className="flex justify-center items-center bg-gray-100 rounded-xl">
         <div className="flex flex-col justify-center items-start w-2/3 p-20 gap-4">
           <Image

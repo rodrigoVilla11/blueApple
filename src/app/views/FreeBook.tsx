@@ -8,12 +8,12 @@ const FreeBook = () => {
       };
 
   return (
-    <div className="h-screen w-full flex flex-col justify-center items-center bg-gradient-blueApple text-sm p-8 gap-10" id="workWithUs">
+    <div className="sm:h-screen w-full flex flex-col justify-center items-center bg-gradient-blueApple text-sm p-8 gap-10" id="workWithUs">
       <h3 className="text-white text-4xl text-bold">
         Programe su consulta gratuita de 15 minutos hoy
       </h3>
-      <div className="flex justify-center items-center gap-10 ">
-        <div className="w-full h-72 border-2 border-white rounded-xl p-8 bg-white text-blue-darkBlueApple ">
+      <div className="flex flex-col sm:flex-row justify-center items-center gap-10 p-4 ">
+        <div className="flex flex-col w-full sm:h-72 border-2 border-white rounded-xl p-8 bg-white text-blue-darkBlueApple ">
           <h5 className=" text-3xl text-bold mb-4">
             Esta demo call es perfecta para...
           </h5>
@@ -55,8 +55,8 @@ const FreeBook = () => {
             </li>
           </ul>
         </div>
-        <div className="w-full h-72 border-2 border-white rounded-xl p-8 bg-white text-blue-darkBlueApple ">
-          <h5 className=" text-3xl text-bold mb-4">Recibirás</h5>
+        <div className="flex flex-col w-full sm:h-72 border-2 border-white rounded-xl p-8 bg-white text-blue-darkBlueApple ">
+          <h5 className="text-3xl text-bold mb-4">Recibirás</h5>
           <ul className="text-md">
             <li>
               -Una {" "}
