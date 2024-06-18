@@ -80,7 +80,7 @@ const FreeBook = () => {
             </li>
             
           </ul>
-        <Button className='font-bold bg-blue-blueApple mt-8' onClick={handleClick}>BOOK A FREE DEMO</Button>
+        <Button className='font-bold bg-blue-blueApple text-white mt-8' onClick={handleClick}>BOOK A FREE DEMO</Button>
 
         </div>
       </div>

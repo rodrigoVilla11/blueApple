@@ -16,28 +16,28 @@ const NavBar = () => {
       </NavbarBrand>
       <NavbarContent className="hidden sm:flex gap-4" justify="center">
         <NavbarItem>
-          <Link color="foreground" href="#services">
+          <Link color="foreground" className="text-white" href="#services">
             Servicios
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link color="foreground" href="#aboutUs">
+          <Link color="foreground" className="text-white" href="#aboutUs">
             Sobre Nosotros
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link color="foreground" href="#philosophy">
+          <Link color="foreground" className="text-white" href="#philosophy">
             Filosofia
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link color="foreground" href="#workWithUs">
+          <Link color="foreground" className="text-white" href="#workWithUs">
             Trabajemos
           </Link>
         </NavbarItem>
       </NavbarContent>
       <NavbarContent justify="end">
-        <NavbarItem>
+        <NavbarItem className="hidden sm:flex">
           <Button onClick={handleClick} className='text-white font-bold bg-transparent border-2 border-white hover:bg-blue-blueApple'>
             BOOK A FREE DEMO
           </Button>
