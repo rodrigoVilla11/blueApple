@@ -11,7 +11,7 @@ import Footer from "./views/Footer";
 
 export default function Home() {
   return (
-    <main className="font-montserrat">
+    <main className="font-montserrat text-white">
       <NavBar />
       <Landing />
       <Partners />

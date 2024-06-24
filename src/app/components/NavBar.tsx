@@ -37,7 +37,7 @@ const NavBar = () => {
             </Link>
           </NavbarItem>
         </NavbarContent>
-        <NavbarContent justify="end" className="hidden sm:flex">
+        <NavbarContent justify="end" className="hidden lg:flex">
           <NavbarItem>
             <Button onClick={handleClick} className='text-white font-bold bg-transparent border-2 border-white hover:bg-blue-blueApple'>
               BOOK A FREE DEMO

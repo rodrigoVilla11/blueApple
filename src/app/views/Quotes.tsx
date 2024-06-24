@@ -35,9 +35,9 @@ const Quotes = () => {
   const person = people[state];
 
   return (
-    <div className="w-full hidden sm:flex h-screen bg-white px-44 py-24">
+    <div className="w-full flex flex-col bg-white p-4 lg:px-44 lg:py-24">
       <div className="flex justify-center items-center bg-gray-100 rounded-xl">
-        <div className="flex flex-col justify-center items-start w-2/3 p-20 gap-4">
+        <div className="flex flex-col justify-center items-start lg:w-2/3 p-4 md:p-20 gap-4">
           <Image
             alt="quotes"
             src="/quotes.svg"
@@ -45,7 +45,7 @@ const Quotes = () => {
             height={100}
             className="rounded-lg"
           />
-          <h4 className="text-2xl text-blue-darkBlueApple font-bold">
+          <h4 className="md:text-2xl text-blue-darkBlueApple font-bold text-center">
             {person.quote}
           </h4>
           <div className="flex justify-start items-center gap-4">
@@ -56,7 +56,7 @@ const Quotes = () => {
             </div>
           </div>
         </div>
-        <div className="w-1/3 p-4 flex justify-center items-center">
+        <div className="hidden w-1/3 p-4 md:flex justify-center items-center">
           <div className="relative w-[350px] h-[400px]">
             <Image
               alt={person.name}

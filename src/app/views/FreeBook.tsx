@@ -8,12 +8,12 @@ const FreeBook = () => {
       };
 
   return (
-    <div className="sm:h-screen w-full flex flex-col justify-center items-center bg-gradient-blueApple text-sm p-8 gap-10" id="workWithUs">
-      <h3 className="text-white text-4xl text-bold">
+    <div className="lg:h-screen w-full flex flex-col justify-center items-center bg-gradient-blueApple text-sm md:p-8 gap-10" id="workWithUs">
+      <h3 className="text-white text-4xl text-bold p-8">
         Programe su consulta gratuita de 15 minutos hoy
       </h3>
-      <div className="flex flex-col sm:flex-row justify-center items-center gap-10 p-4 ">
-        <div className="flex flex-col w-full sm:h-72 border-2 border-white rounded-xl p-8 bg-white text-blue-darkBlueApple ">
+      <div className="flex flex-col lg:flex-row justify-center items-center gap-10 md:p-4 ">
+        <div className="flex flex-col w-full lg:h-72 border-2 border-white md:rounded-xl p-4 md:p-8 bg-white text-blue-darkBlueApple ">
           <h5 className=" text-3xl text-bold mb-4">
             Esta demo call es perfecta para...
           </h5>
@@ -55,7 +55,7 @@ const FreeBook = () => {
             </li>
           </ul>
         </div>
-        <div className="flex flex-col w-full sm:h-72 border-2 border-white rounded-xl p-8 bg-white text-blue-darkBlueApple ">
+        <div className="flex flex-col w-full lg:h-72 border-2 border-white md:rounded-xl p-4 md:p-8 bg-white text-blue-darkBlueApple mb-10 md:mb-0">
           <h5 className="text-3xl text-bold mb-4">Recibirás</h5>
           <ul className="text-md">
             <li>
